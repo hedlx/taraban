@@ -22,7 +22,11 @@ slackConnector = (processMessage) ->
     channelName = if channel?.is_channel then '#' else ''
     channelName = channelName + if channel then channel.name else 'UNKNOWN_CHANNEL'
 
+    return if channelName not in Config.slackChannels
+
     userName = if user?.name? then "@#{user.name}" else "UNKNOWN_USER"
+
+    return if userName in Config.slackIgnoredUsers
 
     channel.send "#{userName}, #{processMessage text}"
   slack.on 'error', (err) ->

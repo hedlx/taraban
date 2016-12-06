@@ -1,4 +1,6 @@
 class Config
   @slackToken : 'xoxb-13496898641-ohDFDawpxPipUl2ID0FBoxcp'
+  @slackChannels : [ '#bot' ]
+  @slackIgnoredUsers : ['@taraban']
 
 module.exports = Config
