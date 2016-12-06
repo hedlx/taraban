@@ -28,7 +28,10 @@ slackConnector = (processMessage) ->
 
     return if userName in Config.slackIgnoredUsers
 
-    channel.send "#{userName}, #{processMessage text}"
+    processedMessage = processMessage text
+
+    if processedMessage?
+       channel.send "#{userName}, #{processedMessage}"
   slack.on 'error', (err) ->
       winston.error "Error", err
 
