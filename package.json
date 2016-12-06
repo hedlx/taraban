@@ -1,0 +1,21 @@
+{
+  "name": "ebobot",
+  "version": "0.0.0",
+  "description": "Bot",
+  "url": "https://github.com/",
+  "email": "ilya.sumb+ebobot@gmail.com",
+  "license": "UNLICENSED",
+  "bin": {
+    "bot": "./node_modules/.bin/coffee ./src/ebobot.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "lodash": "^3.10.1",
+    "slack-client": "^1.4.1",
+    "winston": "^2.1.1"
+  }
+}
