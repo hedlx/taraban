@@ -1,10 +1,10 @@
 {
-  "name": "ebobot",
+  "name": "taraban",
   "version": "0.0.0",
-  "description": "Bot",
-  "url": "https://github.com/",
+  "description": "Yet another general-purpose chat bot",
+  "url": "https://github.com/hedlx/taraban",
   "email": "ilya.sumb+ebobot@gmail.com",
-  "license": "UNLICENSED",
+  "license": "UNLICENSED", // Need to license project with GPLv3 :ebola:
   "bin": {
     "bot": "./node_modules/.bin/coffee ./src/ebobot.coffee"
   },
