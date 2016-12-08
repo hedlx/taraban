@@ -5,7 +5,7 @@ Yet another general-purpose chat bot
 1. Node.js 7.2.0+
 
 # Preparation
-1. `nmp install`
+1. `npm install`
 2. Copy `/config.coffee.example` to `/config.coffee` and adjust settings.
 
 # Launch bot
