@@ -4,7 +4,7 @@
   "description": "Yet another general-purpose chat bot",
   "url": "https://github.com/hedlx/taraban",
   "email": "ilya.sumb+ebobot@gmail.com",
-  "license": "UNLICENSED", // Need to license project with GPLv3 :ebola:
+  "license": "UNLICENSED",
   "bin": {
     "bot": "./node_modules/.bin/coffee ./src/ebobot.coffee"
   },
