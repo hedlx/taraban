@@ -9,4 +9,4 @@ Yet another general-purpose chat bot
 2. Copy `/config.coffee.example` to `/config.coffee` and adjust settings.
 
 # Launch bot
-1. `./run.sh`
+1. `npm run bot`

@@ -3,11 +3,7 @@
   "version": "0.0.0",
   "description": "Yet another general-purpose chat bot",
   "url": "https://github.com/hedlx/taraban",
-  "email": "ilya.sumb+ebobot@gmail.com",
   "license": "UNLICENSED",
-  "bin": {
-    "bot": "./node_modules/.bin/coffee ./src/ebobot.coffee"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/npm/npm.git"
@@ -17,5 +13,8 @@
     "lodash": "^3.10.1",
     "slack-client": "^1.4.1",
     "winston": "^2.1.1"
+  },
+  "scripts": {
+    "bot": "./node_modules/.bin/coffee ./src/ebobot.coffee"
   }
 }
